@@ -7,6 +7,9 @@
 ```
 git clone https://github.com/owo10086/Telegram-interactive-bot-docker.git
 cd Telegram-interactive-bot-docker
+```
 配置.env的参数，如果不会获取，参考原版的说明。
-运行：docker compose up -d
+运行：
+```
+docker compose up -d
 ```
