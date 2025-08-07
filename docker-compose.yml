@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  telegram-interactive-bot:
+    image: nbnibaba/tgibot:0.2     # 或者用 build 来本地构建并打上这个名字
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: telegram-interactive-bot
+    restart: always
+
+    # 方式一：直接指定 env_file，Compose 会自动把 .env 里的全部变量注入
+    env_file:
+      - .env
