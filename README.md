@@ -3,6 +3,10 @@
 
 
 # 用法
-1. 下载整个项目
-2. 配置.env的参数，如果不会获取，参考原版的说明。
-3. 运行：docker compose up -d
+下载整个项目 或
+```
+git clone https://github.com/owo10086/Telegram-interactive-bot-docker.git
+cd Telegram-interactive-bot-docker
+配置.env的参数，如果不会获取，参考原版的说明。
+运行：docker compose up -d
+```
